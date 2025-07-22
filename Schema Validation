@@ -1,0 +1,19 @@
+##14. Schema Validation
+##js
+db.runCommand({
+  collMod: "Carnivores",
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["name", "type"],
+      properties: {
+        name: { bsonType: "string" },
+        diet: { bsonType: "string" }
+      }
+    }
+  }
+})
+
+##Output:
+##json
+{ ok: 1 }
