@@ -1,0 +1,7 @@
+##13. Create Text Index & Search
+##js
+db.Carnivores.createIndex({ name: "text", period: "text" })
+db.Carnivores.find({ $text: { $search: "cretaceous" } })
+
+##Output:
+Finds documents with "cretaceous" in `name` or `period`
