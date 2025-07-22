@@ -1,0 +1,16 @@
+##2. Insert Documents
+##js
+db.Carnivores.insertMany([
+  {name:"T Rex", type:"Carnivore", period:"cretaceous"},
+  {name:"Spinosauraus", type:"semi aquatic", period:"cretaceeous"}
+])
+
+##Output:
+##json
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('...cd2'),
+    '1': ObjectId('...cd3')
+  }
+}
