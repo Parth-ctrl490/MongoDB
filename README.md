@@ -1,4 +1,4 @@
-🦖 MongoDB Dinosaur Operations (10-line README)
+🦖 MongoDB Dinosaur Operations 
 
 This repository contains real MongoDB Shell commands for a dinosaur-themed database. Learn CRUD, aggregation, indexing, and more.
 
