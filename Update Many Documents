@@ -1,0 +1,14 @@
+ ##7. Update Many Documents
+##js
+db.Carnivores.updateMany(
+  {type:"Carnivore"},
+  {$set:{classification:"Theropod"}}
+)
+
+##Output:
+##json
+{
+  acknowledged: true,
+  matchedCount: 3,
+  modifiedCount: 3
+}
