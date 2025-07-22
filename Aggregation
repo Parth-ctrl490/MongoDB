@@ -1,0 +1,11 @@
+ ##9. Group By Period (Aggregation)
+##js
+db.Carnivores.aggregate([
+  { $group: { _id: "$period", count: { $sum: 1 } } }
+])
+
+##Output:
+##json
+{ _id: 'cretaceous', count: 1 },
+{ _id: 'late crataceous', count: 2 },
+{ _id: null, count: 1 }
