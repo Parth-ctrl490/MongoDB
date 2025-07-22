@@ -1,0 +1,18 @@
+##3. View All Documents
+##js
+db.Carnivores.find().pretty()
+
+##Output:
+##json
+{
+  _id: ObjectId('...cd2'),
+  name: 'T Rex',
+  type: 'Carnivore',
+  period: 'cretaceous'
+}
+{
+  _id: ObjectId('...cd3'),
+  name: 'Spinosauraus',
+  type: 'semi aquatic',
+  period: 'cretaceeous'
+}
