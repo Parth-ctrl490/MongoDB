@@ -1,0 +1,6 @@
+##11. Sort, Limit, and Skip
+##js
+db.Carnivores.find().sort({ name: 1 }).limit(5).skip(2)
+
+##Output:
+Returns 3rd and 4th documents sorted by `name`
