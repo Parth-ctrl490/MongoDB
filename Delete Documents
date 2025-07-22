@@ -1,0 +1,10 @@
+ ##8. Delete Documents
+##js
+db.Carnivores.deleteMany({type:"semi aquatic"})
+
+##Output:
+##json
+{
+  acknowledged: true,
+  deletedCount: 1
+}
