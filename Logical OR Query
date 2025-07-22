@@ -1,0 +1,6 @@
+ ##10. Logical OR Query
+##js
+db.Carnivores.find({$or:[{name:"T Rex"},{name:"Megaraptor"}]})
+
+##Output:
+Returns documents where name is either `T Rex` or `Megaraptor`
