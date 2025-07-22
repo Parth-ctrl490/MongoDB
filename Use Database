@@ -1,0 +1,11 @@
+# MongoDB Dinosaur Database Operations (Complete Guide)
+
+This document contains a complete MongoDB workflow on a sample database named `Dinosaur`.
+It demonstrates real-time operations using MongoDB Shell, including CRUD, aggregation, indexing, validation, and more, along with corresponding outputs.
+
+🧱 1. Use Database
+js
+use Dinosaur
+
+Output:
+switched to db Dinosaur
