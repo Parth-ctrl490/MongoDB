@@ -1,0 +1,8 @@
+ ##6. Projection (Show only specific fields)
+##js
+db.Carnivores.find({}, { name: 1, _id: 0 })
+db.Carnivores.find({}, { period: 1, _id: 0 })
+
+##Output:
+##json
+{ name: 'T Rex' }, { ... }, {}, etc.
