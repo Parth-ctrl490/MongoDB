@@ -1,0 +1,14 @@
+##4. Insert More Documents (Including Invalid One)
+##js
+db.Carnivores.insertMany([
+  {name:"Velociraptor", type:"Carnivore", period:"late crataceous"},
+  {name:"Megaraptor", type:"Carnivore", period:"late crataceous"},
+  {}
+])
+
+##Output:
+##json
+{
+  acknowledged: true,
+  insertedIds: { '0': ..., '1': ..., '2': ... }
+}
