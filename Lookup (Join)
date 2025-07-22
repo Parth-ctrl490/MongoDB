@@ -1,0 +1,15 @@
+##12. Lookup (Join)
+##js
+db.Carnivores.aggregate([
+  {
+    $lookup: {
+      from: "period",
+      localField: "period",
+      foreignField: "type",
+      as: "period_info"
+    }
+  }
+])
+
+##Output:
+All `period_info` fields are empty arrays due to no match
