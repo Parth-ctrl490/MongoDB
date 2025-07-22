@@ -1,0 +1,7 @@
+##5. Query Documents by Type
+##js
+db.Carnivores.find({type:"Carnivore"})
+db.Carnivores.find({type:"semi aquatic"})
+
+##Output:
+Returns only matching documents for each `type`
